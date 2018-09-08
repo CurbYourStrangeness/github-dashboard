@@ -22,37 +22,37 @@
 
 #dashboard.show_starred_and_followed_by .news > .watch_started.by_internet,
 #dashboard.show_starred_and_followed_by .news > .follow.by_internet {
-  display: inline-block;
+  display: block;
 }
 
 #dashboard.show_forked_by .news > .fork.by_internet {
-  display: inline-block;
+  display: block;
 }
 
 #dashboard.show_stars_and_follows .news > .watch_started.by_followed_people,
 #dashboard.show_stars_and_follows .news > .follow.by_followed_people {
-  display: inline-block;
+  display: block;
 }
 
 #dashboard.show_forks .news > .fork.by_followed_people {
-  display: inline-block;
+  display: block;
 }
 
 #dashboard.show_open_source .news > .repo.by_followed_people,
 #dashboard.show_open_source .news > .create.by_followed_people,
 #dashboard.show_open_source .news > .public.by_followed_people {
-  display: inline-block;
+  display: block;
 }
 
 #dashboard.show_releases .news > .tag,
 #dashboard.show_releases .news > .release {
-  display: inline-block;
+  display: block;
 }
 
 #dashboard.show_code .news > .gollum,
 #dashboard.show_code .news > .git-branch,
 #dashboard.show_code .news > .push {
-  display: inline-block;
+  display: block;
 }
 
 #dashboard.show_conversations .news > .issues_comment,
@@ -61,12 +61,12 @@
 #dashboard.show_conversations .news > .issues_labeled,
 #dashboard.show_conversations .news > .issues_closed,
 #dashboard.show_conversations .news > .issues_reopened {
-  display: inline-block;
+  display: block;
 }
 
 #dashboard.show_administration .news > .team_add,
 #dashboard.show_administration .news > .member_add {
-  display: inline-block;
+  display: block;
 }
 
 .js-recent-activity-container + details {
