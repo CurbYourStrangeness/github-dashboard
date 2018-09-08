@@ -22,11 +22,11 @@
 
 #dashboard.show_starred_and_followed_by .news > .watch_started.by_internet,
 #dashboard.show_starred_and_followed_by .news > .follow.by_internet {
-  display: block;
+  display: inline-block;
 }
 
 #dashboard.show_forked_by .news > .fork.by_internet {
-  display: block;
+  display: inline-block;
 }
 
 #dashboard.show_stars_and_follows .news > .watch_started.by_followed_people,
@@ -41,12 +41,12 @@
 #dashboard.show_open_source .news > .repo.by_followed_people,
 #dashboard.show_open_source .news > .create.by_followed_people,
 #dashboard.show_open_source .news > .public.by_followed_people {
-  display: block;
+  display: inline-block;
 }
 
 #dashboard.show_releases .news > .tag,
 #dashboard.show_releases .news > .release {
-  display: block;
+  display: inline-block;
 }
 
 #dashboard.show_code .news > .gollum,
